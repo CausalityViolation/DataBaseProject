@@ -117,7 +117,7 @@ public class Menu {
     private void addData() {
 
         System.out.println("\n=================================");
-        System.out.println("              Add data               ");
+        System.out.println("              Add Data               ");
         System.out.println("=================================");
         System.out.println("1. Add New Game");
         System.out.println("2. Add New Developer");
@@ -149,11 +149,11 @@ public class Menu {
         System.out.println("\n=================================");
         System.out.println("            Show Data               ");
         System.out.println("=================================");
-        System.out.println("1. Show all");
-        System.out.println("2. Show games");
-        System.out.println("3. Show developers");
-        System.out.println("4. Show releases");
-        System.out.println("5. Show Total Units Sold(Statistics)");
+        System.out.println("1. Show All");
+        System.out.println("2. Show Games");
+        System.out.println("3. Show Developers");
+        System.out.println("4. Show Releases");
+        System.out.println("5. Show And Calculate Total Units Sold");
         System.out.println("6. Show Sales Percentage");
         System.out.println("0. Return To Main Menu");
         System.out.println("=================================");

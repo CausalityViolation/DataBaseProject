@@ -99,7 +99,7 @@ public class Management {
 
         showGames();
 
-        System.out.println("Enter ID: ");
+        System.out.print("Enter ID: ");
         int id = scanInt();
 
         Game game = em.find(Game.class, id);
@@ -137,6 +137,9 @@ public class Management {
 
         EntityManager em = emf.createEntityManager();
 
+        showDevelopers();
+
+        System.out.println("Enter ID Of Developer To Edit: ");
         int id = scanInt();
 
         Developer dev = em.find(Developer.class, id);
@@ -145,7 +148,6 @@ public class Management {
         System.out.println("=================================");
         System.out.println("\n<Edit Options>");
         System.out.println("1. Company name");
-        System.out.println("2. Manually Edit Units Sold");
         System.out.println("0. Return to main");
         System.out.println("=================================");
         System.out.print("Input: ");
@@ -157,11 +159,6 @@ public class Management {
             System.out.print("New name: ");
             String name = input.nextLine();
             dev.setDeveloperName(name);
-
-        } else if (choice == 2) {
-            System.out.print("Edit New Amount: ");
-            int unitsSold = scanInt();
-            dev.setunitsSold(unitsSold);
 
         } else {
             return;
