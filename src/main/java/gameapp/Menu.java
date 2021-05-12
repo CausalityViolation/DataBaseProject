@@ -49,7 +49,7 @@ public class Menu {
         System.out.println("3. Delete Developer");
         System.out.println("4. Remove Game From Developer");
         System.out.println("5. Remove Game From Release");
-        System.out.println("0. Return to main menu");
+        System.out.println("0. Return To Main Menu");
         System.out.println("=================================");
         System.out.print("Input: ");
 
@@ -153,9 +153,9 @@ public class Menu {
         System.out.println("2. Show games");
         System.out.println("3. Show developers");
         System.out.println("4. Show releases");
-        System.out.println("5. Calculate Total Units Sold(Statistics)");
-        System.out.println("6. Calculate Percentage");
-        System.out.println("0. Return to main menu");
+        System.out.println("5. Show Total Units Sold(Statistics)");
+        System.out.println("6. Show Sales Percentage");
+        System.out.println("0. Return To Main Menu");
         System.out.println("=================================");
         System.out.print("Input: ");
 
